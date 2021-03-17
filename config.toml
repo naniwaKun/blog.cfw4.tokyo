@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "ja-jp"
 title = "あんなことやこんなこと"
 theme = "hugo-theme-terminal"
-paginate = 5
+paginate = 20
 
 [params]
   contentTypeName = "wordpress"
