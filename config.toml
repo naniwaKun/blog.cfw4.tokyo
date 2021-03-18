@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://blog.cfw4.tokyo/"
 languageCode = "ja"
 title = "あんなことやこんなこと"
 theme = "hugo-theme-terminal"
