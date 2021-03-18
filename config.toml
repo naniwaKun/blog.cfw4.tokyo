@@ -5,7 +5,7 @@ theme = "hugo-theme-terminal"
 paginate = 20
 
 disqusShortname = "annakotoyakonnakoto"
-
+googleAnalytics = "UA-58961735-2"
 [params]
   contentTypeName = "posts"
   themeColor = "green"
