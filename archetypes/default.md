@@ -1,10 +1,11 @@
 +++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = "{{ .Date }}"
 author = ""
-categories = ["", ""]
-description = ""
-draft = true
-image = ""
+authorTwitter = "" #do not include @
+cover = ""
 tags = ["", ""]
-title = "world"
-
+keywords = ["", ""]
+description = ""
+showFullContent = false
 +++
