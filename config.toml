@@ -4,6 +4,8 @@ title = "あんなことやこんなこと"
 theme = "hugo-theme-terminal"
 paginate = 20
 
+disqusShortname = "annakotoyakonnakoto"
+
 [params]
   contentTypeName = "wordpress"
   themeColor = "green"
