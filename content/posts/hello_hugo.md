@@ -14,7 +14,7 @@ URLそのままで、wordpress から hugoへブログを移動しました。
 
 URLを引き継ぎたかったので、移動には自作の[rubyスクリプト](https://gitlab.com/naniwastrongboy/wordpress2hugo/-/blob/master/main.rb)を使いました。こういうのは車輪の再発明なんて呼ばなくて、自分にフィットしたやり方でやるほうが効率が良いのだ。
 
-```main.rb
+```ruby
 #!/bin/ruby
 
 require 'xmlsimple'
