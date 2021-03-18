@@ -11,7 +11,7 @@ pygmentsCodeFences = true
 
 [params]
   contentTypeName = "posts"
-  themeColor = "green"
+  themeColor = "orange"
   showMenuItems = 2
   showLanguageSelector = false
   fullWidthTheme = false
