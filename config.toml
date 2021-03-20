@@ -17,7 +17,7 @@ pygmentsCodeFences = true
   fullWidthTheme = false
   centerTheme = false
   [languages]
-    [languages.en]
+    [languages.ja]
     title = "あんなことやこんなこと"
     subtitle = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
     owner = "naniwa"
@@ -28,16 +28,16 @@ pygmentsCodeFences = true
     readOtherPosts = "Read other posts"
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
-    [languages.en.params.logo]
+    [languages.ja.params.logo]
       logoText = "あんなことやこんなこと"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
         identifier = "wordpress"
         name = "過去の記事"
         url = "/wordpress"
-      [[languages.en.menu.main]]
+      [[languages.ja.menu.main]]
         identifier = "rss"
         name = "RSS"
         url = "/index.xml"
