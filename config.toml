@@ -1,5 +1,6 @@
 baseURL = "https://blog.cfw4.tokyo/"
 languageCode = "ja-jp"
+defaultContentLanguage = "ja-jp"
 title = "あんなことやこんなこと"
 theme = "Memorandum"
 hasCJKLanguage = true
