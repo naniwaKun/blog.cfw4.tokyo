@@ -1,43 +1,38 @@
 baseURL = "https://blog.cfw4.tokyo/"
-languageCode = "ja"
+languageCode = "ja-jp"
 title = "あんなことやこんなこと"
-theme = "hugo-theme-terminal"
-paginate = 20
+theme = "Memorandum"
+hasCJKLanguage = true
 
+copyright = "&copy; 2014-2021 aki.f"
 disqusShortname = "annakotoyakonnakoto"
 googleAnalytics = "UA-58961735-2"
-hasCJKLanguage = true
-pygmentsCodeFences = true
+summarylength = 200
+
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [params]
-  contentTypeName = "posts"
-  themeColor = "orange"
-  showMenuItems = 2
-  showLanguageSelector = false
-  fullWidthTheme = false
-  centerTheme = false
-  [languages]
-    [languages.en]
-    title = "あんなことやこんなこと"
-    subtitle = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
-    owner = "naniwa"
-    keywords = ""
-    copyright = "(c) 2014-2021 naniwa"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    [languages.en.params.logo]
-      logoText = "あんなことやこんなこと"
-      logoHomeLink = "/"
+description = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
+keywords = []
+author = "aki.f"
+profile = "自己紹介を書いて"
+displayauthor = false
+DateForm = "2006-01-02"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "wordpress"
-        name = "過去の記事"
-        url = "/wordpress"
-      [[languages.en.menu.main]]
-        identifier = "rss"
-        name = "RSS"
-        url = "/index.xml"
+[params.highlight]
+theme = "monokai-sublime"
+
+[[params.social]]
+url = "https://github.com/"
+fa_icon_class = "fab fa-github"
+
+[[params.social]]
+url = "https://twitter.com/"
+fa_icon_class = "fab fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon_class = "fas fa-rss"
+
