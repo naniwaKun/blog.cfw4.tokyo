@@ -1,8 +1,8 @@
-baseURL = "https://blog.cfw4.tokyo/"
+baseURL = "https://blog.cfw4.tokyo"
 languageCode = "ja-jp"
 defaultContentLanguage = "ja-jp"
 title = "あんなことやこんなこと"
-theme = "Memorandum"
+theme = "Anubis"
 hasCJKLanguage = true
 
 copyright = "&copy; 2014-2021 aki.f"
@@ -11,29 +11,47 @@ googleAnalytics = "UA-58961735-2"
 summarylength = 50
 
 [taxonomies]
-tag = "tags"
-category = "categories"
+  tag = "tags"
+  category = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[author]
+  name = "aki.f"
 
 [params]
-description = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
-keywords = []
-author = "aki.f"
-profile = "自己紹介を書いて"
-displayauthor = false
-DateForm = "2006-01-02"
+  description = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
+  author = "aki.f"
+  dateFormat= "2006-01-02"
+  paginationSinglePost = true
+  style = "light-without-switcher"
+  readMore = false
 
-[params.highlight]
-theme = "monokai-sublime"
+  utterancesRepo = ""  # mandatory
+  utterancesTheme = "" # optional
+  utterancesIssue = "" # optional
+  utterancesLabel = "" # optional
 
-[[params.social]]
-url = "https://github.com/"
-fa_icon_class = "fab fa-github"
+[menu]
 
-[[params.social]]
-url = "https://twitter.com/"
-fa_icon_class = "fab fa-twitter"
+  [[menu.main]]
+    identifier = "top"
+    name = "Top"
+    url = "/"
+    weight = 1
 
-[[params.social]]
-url = "/index.xml"
-fa_icon_class = "fas fa-rss"
+  [[menu.main]]
+    name = "Archive"
+    identifier = "archive"
+    url = "/posts/"
+    weight = 2
 
+  [[menu.main]]
+    name = "ArchiveOld"
+    identifier = "archive"
+    url = "/wordpress/"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true

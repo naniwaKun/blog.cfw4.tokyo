@@ -1,6 +1,3 @@
-[submodule "themes/hugo-theme-terminal"]
-	path = themes/hugo-theme-terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
-[submodule "themes/Memorandum"]
-	path = themes/Memorandum
-	url = https://github.com/Nagatani/hugo-memorandum.git
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/mitrichius/hugo-theme-anubis.git
