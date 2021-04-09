@@ -49,7 +49,7 @@ summarylength = 50
 
   [[menu.main]]
     name = "ArchiveOld"
-    identifier = "archive"
+    identifier = "archiveold"
     url = "/wordpress/"
     weight = 3
 
