@@ -53,5 +53,3 @@ summarylength = 50
     url = "/wordpress/"
     weight = 3
 
-[markup.goldmark.renderer]
-  unsafe = true
