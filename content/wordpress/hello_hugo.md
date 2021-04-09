@@ -4,10 +4,7 @@ categories = ["あんなことやこんなこと", ""]
 date = "2021-03-18T12:50:03+09:00"
 description = "wordpress から hugoへブログを移動した。"
 draft = false
-image = ""
-tags = ["", ""]
 title = "hello hugo world"
-
 +++
 
 URLそのままで、wordpress から hugoへブログを移動しました。
