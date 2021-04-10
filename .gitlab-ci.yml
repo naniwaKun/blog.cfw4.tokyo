@@ -3,12 +3,10 @@ stages:
 
 netlify:
   stage: deploy
-  image: klakegg/hugo:ubuntu
+  image: registry.gitlab.com/akihirof0005/akihirof00005.gitlab.io:latest
   before_script:
-    -  npm i -g netlify-cli
   script:
     - hugo -D
-    - npm i -g netlify-cli
     - netlify deploy -s "5f10a4a9-8d38-43fb-8f03-396c5ed47b12" -p public -t "OdQp-JeDFB0rB7wL8vk6Wn3pRL-qD4fHdjB7XtHGsUY" -e production
   artifacts:
     paths:
