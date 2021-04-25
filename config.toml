@@ -25,7 +25,7 @@ summarylength = 50
   author = "aki.f"
   dateFormat= "2006-01-02"
   paginationSinglePost = true
-  style = "light-without-switcher"
+  style = "dark"
   readMore = false
 
   utterancesRepo = ""  # mandatory
