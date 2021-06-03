@@ -1,14 +1,16 @@
 baseURL = "https://blog.cfw4.tokyo"
-languageCode = "ja-jp"
+languageCode = "ja"
 defaultContentLanguage = "ja-jp"
 title = "あんなことやこんなこと"
-theme = "anubis"
+theme = "theer"
 hasCJKLanguage = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 copyright = "&copy; 2014-2021 aki.f"
 disqusShortname = "annakotoyakonnakoto"
 googleAnalytics = "UA-58961735-4"
-summarylength = 50
+summarylength = 70
 
 [taxonomies]
   tag = "tags"
@@ -23,15 +25,17 @@ summarylength = 50
 [params]
   description = "基本的に書いたらほったらかし。感想をコメントでくれたらうれしいです。Since 2014. "
   author = "aki.f"
+  twitter = "naniwastrongboy"
+  useIcon = true
+  useTwitterCard = true
+  match = true
   dateFormat= "2006-01-02"
   paginationSinglePost = true
   style = "dark"
   readMore = false
+  shareTo = ["Twitter", "Hatena", "Pocket"]
+showFooterCredits = true
 
-  utterancesRepo = ""  # mandatory
-  utterancesTheme = "" # optional
-  utterancesIssue = "" # optional
-  utterancesLabel = "" # optional
 
 [menu]
 
