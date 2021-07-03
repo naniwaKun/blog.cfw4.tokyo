@@ -4,9 +4,9 @@ languageCode: "ja-jp"
 #defaultContentLanguage = "ja"
 theme: "rokkaku"
 hasCJKLanguage: true
-#pygmentsCodeFences = true
-#pygmentsUseClasses = true
-
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+googleAnalytics: "UA-58961735-4"
 copyright: "&copy; 2014-2021 naniwastrongboy"
 disqusShortname: "annakotoyakonnakoto"
 summarylength: 70
@@ -17,5 +17,3 @@ taxonomies:
 params:
   limitNumberOfLatests: 100
 
-ga:
-  trackingId: "UA-58961735-4"
