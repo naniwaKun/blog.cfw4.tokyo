@@ -1,0 +1,19 @@
+baseurl: "https://blog.cfw4.tokyo"
+title: "あんなことやこんなこと"
+languageCode: "ja-jp"
+#defaultContentLanguage = "ja"
+theme: "rokkaku"
+hasCJKLanguage: true
+#pygmentsCodeFences = true
+#pygmentsUseClasses = true
+
+copyright: "&copy; 2014-2021 naniwastrongboy"
+disqusShortname: "annakotoyakonnakoto"
+summarylength: 70
+
+taxonomies:
+  tag: "tags"
+  archive: "archives"
+
+ga:
+  trackingId: "UA-58961735-4"
