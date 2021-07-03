@@ -14,6 +14,8 @@ summarylength: 70
 taxonomies:
   tag: "tags"
   archive: "archives"
+params:
+  limitNumberOfLatests: 100
 
 ga:
   trackingId: "UA-58961735-4"
