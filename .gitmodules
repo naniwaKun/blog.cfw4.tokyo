@@ -1,3 +1,4 @@
-[submodule "themes/github-style"]
-	path = themes/github-style
+
+[submodule "themes/github-styl"]
+	path = themes/github-styl
 	url = https://github.com/MeiK2333/github-style.git

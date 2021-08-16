@@ -2,7 +2,7 @@ baseurl: "https://blog.cfw4.tokyo"
 title: "あんなことやこんなこと"
 languageCode: "ja"
 #defaultContentLanguage = "ja"
-theme: "github-style"
+theme: "github-styl"
 hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
