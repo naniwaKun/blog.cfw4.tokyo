@@ -2,7 +2,7 @@ baseurl: "https://blog.cfw4.tokyo"
 title: "あんなことやこんなこと"
 languageCode: "ja"
 #defaultContentLanguage = "ja"
-theme: "hugo-primer"
+theme: "github-style"
 hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
@@ -16,4 +16,8 @@ taxonomies:
   archive: "archives"
 params:
   limitNumberOfLatests: 100
-
+  author: "naniwa"
+  description: "In solitude, where we are least alone."
+  twitter: "naniwastrongboy"
+  rss: true
+  location: "Japanese"
