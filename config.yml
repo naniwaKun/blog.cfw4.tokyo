@@ -3,7 +3,7 @@ title: "あんなことやこんなこと"
 languageCode: "ja"
 defaultContentLanguage: "ja"
 theme: "anubis"
-paginate: 10
+paginate: 3
 hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
@@ -20,8 +20,8 @@ menu:
   main:
   - identifier: archive
     name: Archive
-    title: Archive
-    url: /posts/
+    title: すべての投稿
+    url: /wordpress/
     weight: 0
 
 params:
