@@ -1,8 +1,8 @@
 baseurl: "https://blog.cfw4.tokyo"
 title: "あんなことやこんなこと"
 languageCode: "ja"
-#defaultContentLanguage = "ja
-theme: "hugo-notepadium"
+defaultContentLanguage: "ja"
+theme: "even"
 hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
