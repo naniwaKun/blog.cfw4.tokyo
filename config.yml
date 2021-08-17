@@ -2,7 +2,8 @@ baseurl: "https://blog.cfw4.tokyo"
 title: "あんなことやこんなこと"
 languageCode: "ja"
 defaultContentLanguage: "ja"
-theme: "even"
+theme: "anubis"
+paginate: 10
 hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
