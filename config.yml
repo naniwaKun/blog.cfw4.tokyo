@@ -8,17 +8,52 @@ hasCJKLanguage: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 googleAnalytics: "UA-58961735-4"
+enableRobotsTXT: true
 copyright: "&copy; 2014-2021 naniwastrongboy"
 disqusShortname: "annakotoyakonnakoto"
-summarylength: 70
 
 taxonomies:
   tag: "tags"
   archive: "archives"
+
+menu:
+  main:
+  - identifier: archive
+    name: Archive
+    title: Archive
+    url: /posts/
+    weight: 0
+
 params:
-  limitNumberOfLatests: 100
   author: "naniwa"
-  description: "In solitude, where we are least alone."
-  twitter: "naniwastrongboy"
-  rss: true
-  location: "Japanese"
+  email: radi.o.nan.iwa@gmail.com # used for microformats
+  avatar: "/images/me.png" # used for microformats
+  description: ""
+  # Uncomment if you need this
+  # images:
+  #   - images/og-featured.png # relative path to "static" directory
+  # customCSS:
+  #   - css/my.css # relative path to "assets" directory (don't use main.css filename)
+  # customJS:
+  #   - js/main.js # relative path to "assets" directory
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: dark-without-switcher
+  readMore: false
+  disableSummary: false
+  # utteranc.es support
+  utterancesRepo: ""  # mandatory
+  utterancesTheme: "" # optional
+  utterancesIssue: "" # optional
+  utterancesLabel: "" # optional
+  social:
+  - id: twitter
+    name: naniwastrongboy
+#  - id: hugo
+#    url: "https://gohugo.io/"
+#    icon: "hugo"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown
