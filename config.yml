@@ -19,7 +19,7 @@ taxonomies:
 menu:
   main:
   - identifier: archive
-    name: Archive
+    name: すべての投稿
     title: すべての投稿
     url: /wordpress/
     weight: 0
